@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+
+  "name": "Treasury Direct Password Autocomplete",
+  "description": "This extension will fix the treasury direct page to allow password autocomplete by your password manager.",
+  "author": "Rahul Zhade",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.treasurydirect.gov/RS/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
