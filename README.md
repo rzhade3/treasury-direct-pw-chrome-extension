@@ -4,7 +4,7 @@ This is a Chrome extension that will rewrite the [Treasury Direct login page](ht
 
 ### Installation
 
-1. Clone this repository locally.
-2. In Chrome, go to `chrome://extensions/`.
-3. Enable "Developer mode" in the top right.
+1. Clone this repository locally or alternatively [download the `.zip` file](https://github.com/rzhade3/treasury-direct-pw-chrome-extension/archive/refs/heads/main.zip) and unzip it.
+2. In Chrome or Edge, go to `chrome://extensions/`.
+3. Enable "Developer mode" in the top right on Chrome or in the left sidebar on Edge.
 4. Click "Load unpacked" and select the cloned repository.
